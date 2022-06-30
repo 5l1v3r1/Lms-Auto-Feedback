@@ -8,10 +8,10 @@ driver.get("https://karnatakalms.com/home")
 input=driver.find_element_by_xpath('//*[@id="homebody"]/div[2]/div/button[2]').click()
 
 input=driver.find_element_by_xpath('//*[@id="userid"]')
-input.send_keys('ug19150228') #enter your user-id
+input.send_keys('ug1919191') #enter your valid user-id
 
 input=driver.find_element_by_xpath('//*[@id="password"]')
-input.send_keys('Yash@1#₹') #enter your password
+input.send_keys('msdhoni') #enter your valid password
 
 time.sleep(2)
 
@@ -52,7 +52,7 @@ dropdown = Select(driver.find_element_by_id("inputType"))
 dropdown.select_by_value("FeedBack")
 
 input=driver.find_element_by_xpath('/html/body/app-root/app-layout-full/div[1]/main/div/app-graviances/div[3]/div/div/div[2]/app-graviances-editor/form/div/div[2]/div/div/textarea')
-input.send_keys('One of the best student friendly website the study materials was awesome') 
+input.send_keys('One of the best student friendly website the study materials was awesome') #change your needed line for feedback
 
 input=driver.find_element_by_xpath('/html/body/app-root/app-layout-full/div[1]/main/div/app-graviances/div[3]/div/div/div[2]/app-graviances-editor/div/div/button[1]').click()
 
