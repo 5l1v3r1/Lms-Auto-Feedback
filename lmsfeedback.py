@@ -56,5 +56,8 @@ input.send_keys('One of the best student friendly website the study materials wa
 
 input=driver.find_element_by_xpath('/html/body/app-root/app-layout-full/div[1]/main/div/app-graviances/div[3]/div/div/div[2]/app-graviances-editor/div/div/button[1]').click()
 
+time.sleep(5)
+
+driver.close()
 
 
