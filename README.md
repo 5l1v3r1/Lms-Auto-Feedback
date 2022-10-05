@@ -4,5 +4,4 @@ Download The Latest Version Of Chrome Driver https://chromedriver.chromium.org/ 
 replace your ug id and password in the 11 & 14th line & 19th line with your university value(value are inserted there choose which you want)
 and replace the line which you want in 55th line for feedback
 
-👉Video
-https://youtu.be/zymsLscrkZY
+
